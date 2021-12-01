@@ -11,7 +11,7 @@ export class UserModel {
 
     @Column()
     @UniqueValidator(UserModel, {
-        message: "Este nome de usuário já esta sendo utilizado $value",
+        message: "Este nome de usuário já esta sendo utilizado",
     })
     usuario: string
 

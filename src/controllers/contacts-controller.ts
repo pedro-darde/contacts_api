@@ -35,7 +35,7 @@ export default {
 
             await customRepository.edit(parseInt(id), modeledObject)
 
-            return res.status(200).json({ok: true})
+            return res.status(200).json({message: "Informações atualizadas com sucesso"})
         } catch (err) {
             next(err)
         }
