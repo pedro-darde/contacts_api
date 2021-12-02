@@ -4,7 +4,7 @@
   "description": "api referente à vaga desenv react native",
   "main": "index.ts",
   "scripts": {
-    "start": "node dist/src/index.js",
+    "start": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "typeorm": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/index.ts",
