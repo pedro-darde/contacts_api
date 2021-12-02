@@ -2,7 +2,7 @@ import { ConnectionOptions, createConnection } from "typeorm";
 import dotenv from "dotenv";
 dotenv.config();
 const connectioOptions = {
-  type: process.env.DBTYPE,
+  type: 'postgres',
   database: process.env.DB_NAME,
   username: process.env.DB_USER,
   password: process.env.PASSWORD_DB,
